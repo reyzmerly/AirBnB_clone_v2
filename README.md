@@ -361,5 +361,5 @@ $ python3 unittest -m tests/test_console.py
 ```
 
 ## Authors :black_nib:
-* **REYZ(JEAN REMY RUCAMUKIBATSI) <[bdbaraban](https://github.com/reyzmerly)>
+* **REYZ(JEAN REMY RUCAMUKIBATSI) <[reyzmerly](https://github.com/reyzmerly)>
 
