@@ -1,14 +1,10 @@
-<h1 align="center">HolbertonBnB</h1>
+<h1 align="center">ALXBnB</h1>
 <p align="center">An AirBnB clone.</p>
 
-<p align="center">
-  <img src="https://github.com/bdbaraban/AirBnB_clone_v2/blob/master/assets/hbnb_logo.png"
-	    alt="HolbertonBnB logo">
-</p>
 
 ## Description :house:
 
-HolbertonBnB is a complete RESTful web application, integrating file and
+ALX airbnb is a complete RESTful web application, integrating file and
 database (MySQL) storage in a back-end API with front-end interfacing in a
 clone of AirBnB. The front-end is designed using HTML5/CSS3 and is served using
 Python Flask. The application is configured on a distributed system - two web
@@ -23,7 +19,7 @@ deploy in the coming month:
 
 <p align="center">
   <img src="https://github.com/bdbaraban/AirBnB_clone_v2/blob/master/assets/hbnb_stack.png"
-	    alt="HolbertonBnB stack">
+	    alt="alxBnB stack">
 </p>
 
 ---
@@ -31,23 +27,23 @@ deploy in the coming month:
 ## NOTE TO 2019 LYFT SOFTWARE ENGINEERING APPRENTICESHIP RECRUITER
 
 This web app has been the capstone project of my full-stack education at
-Holberton School and I want to show it off as a demonstration of all the
+alx School and I want to show it off as a demonstration of all the
 skills I've learned at this school.
 
 With that said, I must clarify that it is not complete. As mentioned, the
 clone is a work-in-progress, with full deployment as a RESTful API still to
 come. Finishing touches will be occurring over the next month, my final at
-Holberton.
+alx.
 
 Recognizing that I am sharing a near-complete project, I additionally put
 together a small Flask app according to the specifications described in the
 application. Please take a look at this separate repository here:
 
-https://github.com/bdbaraban/lyft_apprenticeship_application
+https://github.com/reyzmerly/AirBnB_clone_v2
 
 Nonetheless, allow me to talk a little more about this AirBnB clone. This
 repository is the second iteration of the project. In the first version
-(viewable [here](https://github.com/bdbaraban/AirBnB_clone)), I, together
+(viewable [here](https://github.com/reyzmerlyn/AirBnB_clone)), I, together
 with a cohort mate, built up the initial file storage back-end and
 console from scratch. We pair programmed for most all of this version one work.
 
@@ -59,7 +55,7 @@ to build up the database storage engine of the back-end.
 In between each version, I put together an entire CSS-styled HTML web page
 for the project. This front-end development was coded independently, although
 the HTML files I personally wrote are only posted in
-[version one](https://github.com/bdbaraban/AirBnB_clone) (the
+[version one](https://github.com/reyzmerly/AirBnB_clone) (the
 [web_static](./web_static) folder in this directory was included in the
 fork). Addtionally, all Shell, Puppet, and Fabric deployment scripts/manifests
 were coded myself.
@@ -77,7 +73,7 @@ Please let me know if you have any questions!
 
 ### Static :page_facing_up:
 
-The front-end of HolbertonBnB was designed from scratch using HTML5/CSS3 pages
+The front-end of alxBnB was designed from scratch using HTML5/CSS3 pages
 integrated using Flask. While the front-end has not yet been officially deployed,
 screenshots are viewable in the README of the [web_flask](./web_flask) directory.
 
@@ -103,7 +99,7 @@ depending on the call - [FileStorage](./models/engine/file_storage.py) or
 
 The default mode.
 
-In `FileStorage` mode, every time the backend is initialized, HolbertonBnB
+In `FileStorage` mode, every time the backend is initialized, alxBnB
 instantiates an instance of `FileStorage` called `storage`. The `storage`
 object is loaded/re-loaded from any class instances stored in the JSON file
 `file.json`. As class instances are created, updated, or deleted, the
@@ -365,8 +361,5 @@ $ python3 unittest -m tests/test_console.py
 ```
 
 ## Authors :black_nib:
-* **Brennan D Baraban** <[bdbaraban](https://github.com/bdbaraban)>
-* **Samie Azad** <[sazad44](https://github.com/sazad44)>
-* **Andrew Lindburg** <[atlindburg](https://github.com/atlindburg)>
-* **Kevin Yook** <[yook00627](https://github.com/yook00627)>
-* **Miranda Evans** <miranda.r.evans@gmail.com>
+* **REYZ(JEAN REMY RUCAMUKIBATSI) <[bdbaraban](https://github.com/reyzmerly)>
+
